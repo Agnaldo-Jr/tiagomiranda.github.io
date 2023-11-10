@@ -502,3 +502,17 @@ footer {
     transform: scale(1);
   }
 }
+
+/* Estilos para telas maiores */
+.btn-01 a {
+  display: inline-block;
+  margin-right: 10px; /* Adiciona um espaçamento entre os links */
+}
+
+/* Estilos para telas menores, usando uma media query */
+@media (max-width: 768px) {
+  .btn-01 a {
+      display: block;
+      margin-bottom: 10px; /* Adiciona um espaçamento entre os links empilhados */
+  }
+}
